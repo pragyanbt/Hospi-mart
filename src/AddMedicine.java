@@ -69,7 +69,7 @@ public class AddMedicine implements ActionListener {
         String medicineName = txtMedName.getText();
         String medicinePrice = txtMedPrice.getText();
 
-        MedcineData md = new MedcineData(medicineName, medicinePrice);
+        MedicineData md = new MedicineData(medicineName, medicinePrice);
 
         if (e.getSource()==addMed){
             if (medicineName.length()==0 || medicinePrice.length()==0){
